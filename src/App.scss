@@ -1,0 +1,55 @@
+$logo-size: 25px;
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  background: url('/eco-bg.jpg');
+  height: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#head {
+  background: #5eb608;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+}
+
+.logo-head {
+  color: white;
+}
+
+.logo-bot {
+  color: black;
+}
+
+.logo-head,
+.logo-bot {
+  display: block;
+  font-size: $logo-size;
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
