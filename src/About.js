@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
 
 export default class Logo extends Component {
 	constructor(context) {
@@ -7,11 +6,6 @@ export default class Logo extends Component {
 	}
 
 	render() {
-		return (
-			<div id="nav">
-				<Link to="Home" />
-				<Link to="About" />
-			</div>
-		);
+		return (<div></div>)
 	}
 }
